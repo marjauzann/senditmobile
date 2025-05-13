@@ -1,0 +1,21 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "grade": "A"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "grade": "B"
+    },
+    {
+      "id": 3,
+      "name": "Emily Johnson",
+      "grade": "A"
+    }
+  ],
+  "subject": "Mathematics",
+  "date": "2023-10-01"
+}

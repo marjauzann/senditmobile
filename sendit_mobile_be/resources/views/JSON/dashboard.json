@@ -1,0 +1,144 @@
+{
+  "transaction": [
+    {
+      "no": 1,
+      "id": "001",
+      "tanggal": "2024-09-01",
+      "total": 150000,
+      "status": "Selesai"
+    },
+    {
+      "no": 2,
+      "id": "002",
+      "tanggal": "2024-09-02",
+      "total": 200000,
+      "status": "Selesai"
+    },
+    {
+      "no": 3,
+      "id": "003",
+      "tanggal": "2024-09-03",
+      "total": 250000,
+      "status": "Selesai"
+    },
+    {
+      "no": 4,
+      "id": "004",
+      "tanggal": "2024-09-04",
+      "total": 200,
+      "status": "Selesai"
+    },
+    {
+      "no": 5,
+      "id": "005",
+      "tanggal": "2024-09-05",
+      "total": 350000,
+      "status": "Selesai"
+    },
+    {
+      "no": 6,
+      "id": "006",
+      "tanggal": "2024-09-06",
+      "total": 400000,
+      "status": "Selesai"
+    },
+    {
+      "no": 7,
+      "id": "007",
+      "tanggal": "2024-09-07",
+      "total": 450000,
+      "status": "Selesai"
+    },
+    {
+      "no": 8,
+      "id": "008",
+      "tanggal": "2024-09-08",
+      "total": 500000,
+      "status": "Selesai"
+    },
+    {
+      "no": 9,
+      "id": "009",
+      "tanggal": "2024-09-09",
+      "total": 550000,
+      "status": "Selesai"
+    },
+    {
+      "no": 10,
+      "id": "010",
+      "tanggal": "2024-09-10",
+      "total": 600000,
+      "status": "Selesai"
+    },
+    {
+      "no": 11,
+      "id": "011",
+      "tanggal": "2024-09-11",
+      "total": 650000,
+      "status": "Selesai"
+    },
+    {
+      "no": 12,
+      "id": "012",
+      "tanggal": "2024-09-12",
+      "total": 700000,
+      "status": "Selesai"
+    },
+    {
+      "no": 13,
+      "id": "013",
+      "tanggal": "2024-09-13",
+      "total": 750000,
+      "status": "Selesai"
+    },
+    {
+      "no": 14,
+      "id": "014",
+      "tanggal": "2024-09-14",
+      "total": 800000,
+      "status": "Selesai"
+    },
+    {
+      "no": 15,
+      "id": "015",
+      "tanggal": "2024-09-15",
+      "total": 850000,
+      "status": "Selesai"
+    },
+    {
+      "no": 16,
+      "id": "016",
+      "tanggal": "2024-09-16",
+      "total": 900000,
+      "status": "Selesai"
+    },
+    {
+      "no": 17,
+      "id": "017",
+      "tanggal": "2024-09-17",
+      "total": 950000,
+      "status": "Selesai"
+    },
+    {
+      "no": 18,
+      "id": "018",
+      "tanggal": "2024-09-18",
+      "total": 1000000,
+      "status": "Selesai"
+    },
+    {
+      "no": 19,
+      "id": "019",
+      "tanggal": "2024-09-19",
+      "total": 1050000,
+      "status": "Selesai"
+    },
+    {
+      "no": 20,
+      "id": "020",
+      "tanggal": "2024-09-20",
+      "total": 1100000,
+      "status": "Selesai"
+    }
+  ]
+}

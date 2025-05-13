@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "no": 1,
+      "id": "001",
+      "username": "andiset",
+      "nama": "Andi Setiawan",
+      "alamat": "Jl. Merdeka No. 21, Jakarta",
+      "noTelp": "081234567890",
+      "role": "Kurir",
+      "password": "andi2024$"
+    },
+    {
+      "no": 2,
+      "id": "002",
+      "username": "budi.s",
+      "nama": "Budi Santoso",
+      "alamat": "Jl. Gajah Mada No. 5, Surabaya",
+      "noTelp": "081345678901",
+      "role": "Customer",
+      "password": "budi$789"
+    },
+    {
+      "no": 3,
+      "id": "003",
+      "username": "citram",
+      "nama": "Citra Maharani",
+      "alamat": "Jl. Pahlawan No. 13, Bandung",
+      "noTelp": "081234567812",
+      "role": "Kurir",
+      "password": "citra@2024"
+    },
+    {
+      "no": 4,
+      "id": "004",
+      "username": "denip",
+      "nama": "Deni Pratama",
+      "alamat": "Jl. Sudirman No. 3, Yogyakarta",
+      "noTelp": "081987654321",
+      "role": "Customer",
+      "password": "deni!321"
+    },
+    {
+      "no": 5,
+      "id": "005",
+      "username": "erikan",
+      "nama": "Erika Nuraini",
+      "alamat": "Jl. Diponegoro No. 7, Malang",
+      "noTelp": "082112233445",
+      "role": "Kurir",
+      "password": "erika#pass"
+    },
+    {
+      "no": 6,
+      "id": "006",
+      "username": "fajar_m",
+      "nama": "Fajar Mahendra",
+      "alamat": "Jl. Ahmad Yani No. 18, Medan",
+      "noTelp": "081256789012",
+      "role": "Customer",
+      "password": "fajar*2024"
+    },
+    {
+      "no": 7,
+      "id": "007",
+      "username": "gitap",
+      "nama": "Gita Permatasari",
+      "alamat": "Jl. Kartini No. 22, Bali",
+      "noTelp": "081223344556",
+      "role": "Kurir",
+      "password": "gita$7890"
+    },
+    {
+      "no": 8,
+      "id": "008",
+      "username": "hermans",
+      "nama": "Herman Sutanto",
+      "alamat": "Jl. Imam Bonjol No. 10, Palembang",
+      "noTelp": "081998877665",
+      "role": "Customer",
+      "password": "herman_456"
+    },
+    {
+      "no": 9,
+      "id": "009",
+      "username": "irmad",
+      "nama": "Irma Dewi",
+      "alamat": "Jl. Thamrin No. 6, Semarang",
+      "noTelp": "082334455667",
+      "role": "Kurir",
+      "password": "irma2024!"
+    },
+    {
+      "no": 10,
+      "id": "010",
+      "username": "jokow",
+      "nama": "Joko Widodo",
+      "alamat": "Jl. Mangga No. 14, Solo",
+      "noTelp": "081212345678",
+      "role": "Customer",
+      "password": "joko*1234"
+    },
+    {
+      "no": 11,
+      "id": "011",
+      "username": "kikian",
+      "nama": "Kiki Ananda",
+      "alamat": "Jl. Rajawali No. 2, Batam",
+      "noTelp": "081776655443",
+      "role": "Kurir",
+      "password": "kiki_890"
+    },
+    {
+      "no": 12,
+      "id": "012",
+      "username": "liakus",
+      "nama": "Lia Kusuma",
+      "alamat": "Jl. Mawar No. 15, Malang",
+      "noTelp": "081324567890",
+      "role": "Customer",
+      "password": "lia$pass"
+    },
+    {
+      "no": 13,
+      "id": "013",
+      "username": "marior",
+      "nama": "Mario Rahmat",
+      "alamat": "Jl. Kenanga No. 8, Depok",
+      "noTelp": "081888776655",
+      "role": "Kurir",
+      "password": "mario_2024!"
+    },
+    {
+      "no": 14,
+      "id": "014",
+      "username": "ninap",
+      "nama": "Nina Puspita",
+      "alamat": "Jl. Anyelir No. 16, Tangerang",
+      "noTelp": "081255667788",
+      "role": "Customer",
+      "password": "nina#2024"
+    },
+    {
+      "no": 15,
+      "id": "015",
+      "username": "okiher",
+      "nama": "Oki Hermawan",
+      "alamat": "Jl. Cempaka No. 19, Jakarta",
+      "noTelp": "082122334455",
+      "role": "Kurir",
+      "password": "oki$log"
+    },
+    {
+      "no": 16,
+      "id": "016",
+      "username": "putrian",
+      "nama": "Putri Anindya",
+      "alamat": "Jl. Melati No. 3, Bogor",
+      "noTelp": "081633344455",
+      "role": "Customer",
+      "password": "putri*567"
+    },
+    {
+      "no": 17,
+      "id": "017",
+      "username": "qorir",
+      "nama": "Qori Rahma",
+      "alamat": "Jl. Bunga No. 25, Bandung",
+      "noTelp": "081912233445",
+      "role": "Kurir",
+      "password": "qori@pass"
+    },
+    {
+      "no": 18,
+      "id": "018",
+      "username": "rinaa",
+      "nama": "Rina Agustin",
+      "alamat": "Jl. Anggrek No. 27, Makassar",
+      "noTelp": "081822334456",
+      "role": "Customer",
+      "password": "rina2024#"
+    },
+    {
+      "no": 19,
+      "id": "019",
+      "username": "sintad",
+      "nama": "Sinta Dewi",
+      "alamat": "Jl. Seruni No. 4, Surabaya",
+      "noTelp": "081288776655",
+      "role": "Kurir",
+      "password": "sinta!234"
+    },
+    {
+      "no": 20,
+      "id": "020",
+      "username": "tiop",
+      "nama": "Tio Prasetyo",
+      "alamat": "Jl. Sawo No. 1, Lampung",
+      "noTelp": "081712233445",
+      "role": "Kurir",
+      "password": "tio_5678"
+    }
+  ]
+}

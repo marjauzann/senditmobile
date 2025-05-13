@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #4834d4;
+  color: white;
+  padding: 20px 0;
+  position: fixed;
+  height: 100vh;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  flex-grow: 1;
+}
+
+.sidebar h2 {
+  margin: 0;
+  padding: 0 20px 20px;
+  font-size: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar li {
+  margin-bottom: 5px;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+.sidebar a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.sidebar i {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+.users-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.users-card {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-basis: calc(25% - 15px);
+}
+
+.users-card h3 {
+  font-size: 24px;
+}
+
+.users-card p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Styling untuk search box nya */
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+
+/* Styling untuk Table nya */
+.data-users {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#users-table td,
+#users-table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#users-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#users-table tr:hover {
+  background-color: #ddd;
+}
+
+#users-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4834d4;
+  color: white;
+}
