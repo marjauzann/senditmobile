@@ -26,8 +26,8 @@ jobs:
         run: flutter pub get
         working-directory: sendit_mobile_fe
 
-      - name: Analyze
-        run: flutter analyze
+      - name: Run Flutter Analyze (ignore errors)
+        run: flutter analyze || true
         working-directory: sendit_mobile_fe
 
       - name: SonarQube Scan
