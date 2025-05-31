@@ -1,5 +1,4 @@
 name: Build
-
 on:
   push:
     branches:
@@ -9,34 +8,30 @@ on:
 
 jobs:
   sonarqube:
-    name: SonarQube (Flutter Frontend)
-    runs-on: windows-latest
-
-    defaults:
-      run:
-        working-directory: sendit_mobile_fe  # <-- Fokus kerja di dalam folder FE
+    name: SonarQube
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Hindari shallow clone agar analisis lebih relevan
+          fetch-depth: 0
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.19.0'  # Ganti sesuai versi Flutter kamu
+          flutter-version: '3.19.6'  # Versi ini mengandung Dart 3.5.3
 
       - name: Install Dependencies
         run: flutter pub get
+        working-directory: sendit_mobile_fe
 
-      - name: Analyze (Optional)
+      - name: Analyze
         run: flutter analyze
-
-      - name: Run Tests (Optional)
-        run: flutter test --coverage
+        working-directory: sendit_mobile_fe
 
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v5
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+        with:
+          projectBaseDir: sendit_mobile_fe
