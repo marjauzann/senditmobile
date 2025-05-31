@@ -1,0 +1,42 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  sonarqube:
+    name: SonarQube (Flutter Frontend)
+    runs-on: windows-latest
+
+    defaults:
+      run:
+        working-directory: sendit_mobile_fe  # <-- Fokus kerja di dalam folder FE
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Hindari shallow clone agar analisis lebih relevan
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.19.0'  # Ganti sesuai versi Flutter kamu
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Analyze (Optional)
+        run: flutter analyze
+
+      - name: Run Tests (Optional)
+        run: flutter test --coverage
+
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v5
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
